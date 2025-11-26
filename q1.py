@@ -1,3 +1,17 @@
+#Answer
+def swap(x, y):
+
+    if type(x)==int or type(x)==float and type(y)==int or type(y)==float:
+            x_new = y
+            y_new = x
+    elif not type(x)==int or type(x)==float and not type(y)==int or type(y)==float:
+            x_new = -1
+            y_new = -1
+    return print(x_new,y_new)
+    
+swap("Apple",-3)
+swap(9,-17)
+
 #Question
 def swap(x, y):
 
@@ -17,16 +31,3 @@ def swap(x, y):
 # - 9, 17
 
 #Answer
-
-def swap(x, y):
-
-    if type(x)==int or type(x)==float and type(y)==int or type(y)==float:
-            x_new = y
-            y_new = x
-    elif not type(x)==int or type(x)==float and not type(y)==int or type(y)==float:
-            x_new = -1
-            y_new = -1
-    return print(x_new,y_new)
-    
-swap("Apple",-3)
-swap(9,-17)
