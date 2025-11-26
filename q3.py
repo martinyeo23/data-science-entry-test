@@ -1,3 +1,18 @@
+#Answer
+def update_dictionary(dct, key, value):
+    
+    if dct.get(key)== None:
+        dct[key]=value
+        return dct
+    if not dct.get(key)== None:
+        old_value = dct[key]
+        dct[key] = value
+        return print(old_value,dct)
+
+update_dictionary({}, "name", "Alice")
+update_dictionary({"age": 25}, "age", 26)
+
+#Question
 def update_dictionary(dct, key, value):
     """
     Task 1
