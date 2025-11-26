@@ -1,4 +1,6 @@
+#Question
 def swap(x, y):
+
     """
     Task 1
     - Create a function that would swap the value of x and y using only x and y as variables.
@@ -13,3 +15,18 @@ def swap(x, y):
 # Invoke the function "swap" using the following scenarios:
 # - "Apple", 10
 # - 9, 17
+
+#Answer
+
+def swap(x, y):
+
+    if type(x)==int or type(x)==float and type(y)==int or type(y)==float:
+            x_new = y
+            y_new = x
+    elif not type(x)==int or type(x)==float and not type(y)==int or type(y)==float:
+            x_new = -1
+            y_new = -1
+    return print(x_new,y_new)
+    
+swap("Apple",-3)
+swap(9,-17)
