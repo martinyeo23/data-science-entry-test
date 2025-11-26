@@ -1,3 +1,16 @@
+#Answer
+def string_reverse(s):
+
+    reverse = ""
+    for char in s:
+        reverse = char + reverse
+    return reverse
+
+string_reverse("Hello World")
+string_reverse("Python")
+
+
+#Question
 def string_reverse(s):
     """
     Task 1
