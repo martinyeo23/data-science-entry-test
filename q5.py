@@ -1,3 +1,12 @@
+#Answer
+def check_divisibility(num, divisor):
+    return num % divisor == 0
+    
+check_divisibility(10, 2)
+check_divisibility(7, 3)
+
+
+#Question
 def check_divisibility(num, divisor):
     """
     Task 1
