@@ -1,3 +1,19 @@
+#Answer
+class Car:
+    
+    def __init__(self,make,model,year):
+        self.make = make
+        self.model = model
+        self.year = year
+        
+    def describe_car(self):
+        print(f"Year:{self.year} Make:{self.make} Model:{self.model}")
+
+Car1 = Car("Toyota","Corolla",2020)
+Car1.describe_car()
+
+
+Question
 class Car:
     """
     Task 1
