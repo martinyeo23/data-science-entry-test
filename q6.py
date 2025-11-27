@@ -1,3 +1,18 @@
+#Answer
+def find_first_negative(lst):
+    item = 0
+    while len(lst)> item:
+        if lst[item]<0:
+            return lst[item]
+        item+= 1
+    else:
+        return "No Negatives"
+
+find_first_negative([3, 5, -1, 7, -2, 8])
+find_first_negative([2, 10, 7, 0])
+
+
+#Question
 def find_first_negative(lst):
     """
     Task 1
