@@ -18,5 +18,5 @@ def check_divisibility(num, divisor):
 # Invoke the function "check_divisibility" using the following scenarios:
 # - 10, 2
 # - 7, 3
-check_divisibility(10, 2) returns True
-check_divisibility(7, 3) returns False
+check_divisibility(10, 2) #returns True
+check_divisibility(7, 3) #returns False
