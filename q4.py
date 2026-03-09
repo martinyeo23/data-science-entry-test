@@ -7,7 +7,7 @@ def string_reverse(s):
     """
         #check is s is a string
     if type(s) == str:
-        #reverse string
+        #to reverse string
           return s[::-1]
 
     #result if s is not a string 
