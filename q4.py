@@ -18,5 +18,5 @@ def string_reverse(s):
 # Invoke the function "string_reverse" using the following scenarios:
 # - "Hello World"
 # - "Python"
-string_reverse("Hello World") #Output 'dlroW olleH'
-string_reverse("Python") #Outpur "Python"
+string_reverse("Hello World") #returns 'dlroW olleH'
+string_reverse("Python") #returns "Python"
