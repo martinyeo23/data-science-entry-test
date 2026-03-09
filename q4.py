@@ -19,4 +19,4 @@ def string_reverse(s):
 # - "Hello World"
 # - "Python"
 string_reverse("Hello World") #returns 'dlroW olleH'
-string_reverse("Python") #returns "Python"
+string_reverse("Python") #returns 'nohtyP'
