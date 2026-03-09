@@ -29,5 +29,5 @@ def swap(x, y):
 # - "Apple", 10
 # - 9, 17
 
-swap("Apple",-3)
-swap(9,-17)
+swap("Apple",-3) # returns -1
+swap(9,-17) # returns x =-17, y=9
